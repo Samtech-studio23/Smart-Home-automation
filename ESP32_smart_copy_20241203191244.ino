@@ -30,17 +30,17 @@
 #define BLYNK_PRINT Serial
 
 /* Fill in information from Blynk Device Info here */
-#define BLYNK_TEMPLATE_ID "TMPL6tN5YvUPf"
+#define BLYNK_TEMPLATE_ID "copy your id from bkynk"
 #define BLYNK_TEMPLATE_NAME "SMART home"
-#define BLYNK_AUTH_TOKEN "fcU4nezxeWJvhV46FEoQfxJ3tm_YF4iN"
+#define BLYNK_AUTH_TOKEN "copy it from blynk"
 
 #include <WiFi.h>
 #include <WiFiClient.h>
 #include <BlynkSimpleEsp32.h>
 
 // Your WiFi credentials.
-char ssid[] = "B&S Fashion Store";
-char pass[] = "weldingtig200";
+char ssid[] = "your own wifi";
+char pass[] = "your password";
 
 // Relay pins
 const int relayPin1 = 2;   // GPIO 2 for relay 1
